@@ -6,7 +6,7 @@ import org.openqa.selenium.devtools.v97.network.model.Request;
 import org.testng.annotations.*;
 import java.util.Optional;
 
-public class fschallenge {
+public class TestFSChallenge {
 
     CommonActions commonActions;
     Utils utils;
@@ -58,20 +58,20 @@ public class fschallenge {
      */
 
     @Test
-    public void test() throws InterruptedException {
+    public void test() {
 
-        pageObjects.addMangocados();
-        commonActions.wait(5000);
-        utils.validateRequestPayload(jsonArray,"Mangocados", Optional.of(pageObjects.MARKET));
-        pageObjects.addBananas();
-        commonActions.wait(5000);
-        utils.validateRequestPayload(jsonArray,"Bananas", Optional.empty());
-        pageObjects.addBluebs();
-        commonActions.wait(5000);
-        utils.validateRequestPayload(jsonArray,"Bluebs", Optional.empty());
-        pageObjects.gotoMyCart();
-        commonActions.wait(5000);
-        utils.validateRequestPayload(jsonArray,"cart", Optional.of(pageObjects.CART));
+//        pageObjects.addMangocados();
+//        commonActions.wait(5000);
+//        utils.validateRequestPayload(jsonArray,"Mangocados", Optional.of(pageObjects.MARKET));
+//        pageObjects.addBananas();
+//        commonActions.wait(5000);
+//        utils.validateRequestPayload(jsonArray,"Bananas", Optional.empty());
+//        pageObjects.addBluebs();
+//        commonActions.wait(5000);
+//        utils.validateRequestPayload(jsonArray,"Bluebs", Optional.empty());
+//        pageObjects.gotoMyCart();
+//        commonActions.wait(5000);
+//        utils.validateRequestPayload(jsonArray,"cart", Optional.of(pageObjects.CART));
         commonActions.wait(5000);
     }
 
