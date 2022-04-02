@@ -4,7 +4,6 @@ import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.v97.network.Network;
 import org.openqa.selenium.devtools.v97.network.model.Request;
 import org.testng.annotations.*;
-
 import java.util.Optional;
 
 public class fschallenge {
