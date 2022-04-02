@@ -60,18 +60,18 @@ public class TestFSChallenge {
     @Test
     public void test() {
 
-//        pageObjects.addMangocados();
-//        commonActions.wait(5000);
-//        utils.validateRequestPayload(jsonArray,"Mangocados", Optional.of(pageObjects.MARKET));
-//        pageObjects.addBananas();
-//        commonActions.wait(5000);
-//        utils.validateRequestPayload(jsonArray,"Bananas", Optional.empty());
-//        pageObjects.addBluebs();
-//        commonActions.wait(5000);
-//        utils.validateRequestPayload(jsonArray,"Bluebs", Optional.empty());
-//        pageObjects.gotoMyCart();
-//        commonActions.wait(5000);
-//        utils.validateRequestPayload(jsonArray,"cart", Optional.of(pageObjects.CART));
+        pageObjects.addMangocados();
+        commonActions.wait(5000);
+        utils.validateRequestPayload(jsonArray,"Mangocados", Optional.of(pageObjects.MARKET));
+        pageObjects.addBananas();
+        commonActions.wait(5000);
+        utils.validateRequestPayload(jsonArray,"Bananas", Optional.empty());
+        pageObjects.addBluebs();
+        commonActions.wait(5000);
+        utils.validateRequestPayload(jsonArray,"Bluebs", Optional.empty());
+        pageObjects.gotoMyCart();
+        commonActions.wait(5000);
+        utils.validateRequestPayload(jsonArray,"cart", Optional.of(pageObjects.CART));
         commonActions.wait(5000);
     }
 
