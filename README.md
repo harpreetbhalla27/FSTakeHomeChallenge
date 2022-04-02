@@ -6,13 +6,13 @@ FSTakeHomeChallenge is a TestNG Framework based on Java and Selnium library for 
 
 Install Maven on the system if you want to run the tests from command line using maven
 
-  For Mac - brew install Maven
+  For Mac - `brew install Maven`
 
   For Windows - Plesae follow the steps provided here -> https://maven.apache.org/install.html
 
-Use the git commands to clone the project.
+Use git commands to clone the project.
 
-Run pom.xml file after downloading the project. This will install all the Maven Dependencies required for this project.
+After downloading the project, run pom.xml file. This will install all the Maven Dependencies required for this project.
 
 
 ```
@@ -81,7 +81,7 @@ Run pom.xml file after downloading the project. This will install all the Maven 
     $ mvn test
     
     ```
-![image](https://user-images.githubusercontent.com/91301138/161372356-6e42823a-a1d1-48f4-97fc-f8ecdcc38635.png)
+![image](https://user-images.githubusercontent.com/91301138/161372446-da0d838a-f810-4602-8f95-7d2241aeb91a.png)
 
 
 2. Run the TestClass from IDE
